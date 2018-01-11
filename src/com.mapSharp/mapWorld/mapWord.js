@@ -1,5 +1,5 @@
 import ol from 'openlayers';
-
+import 'openlayers/dist/ol.css'
 const MAP_TYPE_VECTOR = 'vector';
 const MAP_TYPE_IMAGE = 'image';
 const LAYER_TYPE_VECTOR = 'vec';

@@ -1,16 +1,9 @@
 /**
  * Created by Eric on 2018/1/11.
  */
-import $ from 'jquery';
-import MapWord from './mapWorld/mapWord';
+import MapWord from './com.mapSharp/mapWorld/mapWord';
 
 class MapSharp{
-
-    // constructor(){
-    //     // this.container  = null;
-    //     // this.mapType = null;
-    //     // return this.generateMap();
-    // }
 
      generateMap(container, mapType){
         // let mapType = mapType;
