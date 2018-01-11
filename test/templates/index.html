@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title></title>
+    <link rel="stylesheet" href="../static/css/ol.css">
+    <script src="../static/js/jquery-3.2.1.min.js"></script>
+    <script src="../static/js/ol.js"></script>
+    <script src="../static/js/map/MapWord.js"></script>
+    <script src="../static/js/map/MapSharp.js"></script>
+</head>
+<body>
+    <div id="mapSharp"></div>
+    <hr/>
+    <div id="mapSharp2"></div>
+
+</body>
+
+
+<script type="text/javascript">
+    let mapSharp = new MapSharp('mapSharp','mapWord');
+    let mapSharp2 = new MapSharp('mapSharp2','mapWord');
+
+</script>
+</html>

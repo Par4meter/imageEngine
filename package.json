@@ -1,0 +1,22 @@
+{
+  "name": "image-engine",
+  "version": "1.0.0",
+  "description": "openlayer image-engine",
+  "main": "mapSharp.js",
+  "scripts": {
+    "test": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "author": "lsjWorkMail@163.com",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "openlayers": "^4.6.4"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1"
+  }
+}
