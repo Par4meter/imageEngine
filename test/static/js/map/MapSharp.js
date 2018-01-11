@@ -17,6 +17,7 @@ class MapSharp{
                 return new MapWord(container);
 				break;
 			case 'arcGis':
+				return new ArcGis(container);
 				break;
 			case 'baiduMap':
 				break;
