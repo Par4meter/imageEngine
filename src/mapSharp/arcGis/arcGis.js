@@ -1,11 +1,16 @@
 
+
+
+import ol from 'openlayers';
+
+
 class ArcGis{
 
     constructor(container){
         this.projection = ol.proj.get('EPSG:4326');
         this.center = [116.46,39.92];
-        this.url = 'https://localhost:6443/arcgis/rest/services/mytile/MapServer/tile/{z}/{y}/{x}';
         this.extent = [-180,-90,180,90];
+        this.url = 'https://localhost:6443/arcgis/rest/services/mytile/MapServer/tile/{z}/{y}/{x}';
         this.ol_map = new ol.Map({
             target:container,
             view:new ol.View({
@@ -37,4 +42,4 @@ class ArcGis{
         });
     }
 }
-// export {MapWord};
+export default ArcGis;

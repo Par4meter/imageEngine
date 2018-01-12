@@ -19,7 +19,7 @@ module.exports = {
     , plugins: [
         //以index.html作为模板，并向其中插入打包后的bundle.js文件，然后保存到目标路径下
         new HtmlWebpackPlugin({
-            template:'./src/index.html'
+            template:'./src/mapSharp/index.html'
         })
     ]
 };

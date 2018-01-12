@@ -60,12 +60,10 @@ class MapWord{
 
         urlTemplate = urlTemplate.replace('{randomNumber}',Math.round(Math.random()*7).toString())
                                  .replace(/{layerType}/g,layerType);
-        console.log(urlTemplate);
 
         return new ol.source.TileImage({
 
             tileUrlFunction: function (tileCoord, pixelRatio, projection) {
-                debugger;
                 let z = tileCoord[0];
                 let x = tileCoord[1];
                 let y = parseInt(Math.pow(2, z - 1) - 1 - tileCoord[2]);
