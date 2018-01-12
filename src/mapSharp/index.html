@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="../../node_modules/jquery/dist/jquery.js"></script>
     <!--<script src="mapSharp.js"></script>-->
-    <!--<script src="../node_modules/jquery/dist/jquery.js"></script>-->
 </head>
 <body>
     <div id="mapContainer"></div>
@@ -16,7 +16,9 @@
 //    let test1 = window.mapSharp;
 //    test1.generateMap('mapContainer','mapWorld');
 //
-    let mapSharp = new MapSharp();
+//    let map = mapSharp.generateMap('mapContainer','mapWorld');
+
+    let map = new mapSharp.Map('mapContainer','mapWorld');
 
 </script>
 </html>
